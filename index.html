@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto - ToDoList</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- estilos e ícones -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b70f2ddede.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="main">
+
+      <h1>Lista de Tarefas</h1>
+      <span class="error"></span>
+
+      <div class="container">
+        <!-- input e lista de tarefas -->
+        <input
+          type="text"
+          placeholder="O que tenho que fazer?"
+          class="input-task"
+        />
+        <button class="btn-add-task">Adicionar</button>
+        <ul class="list-task"></ul>
+
+        <!-- informações sobre as tarefas -->
+        <div class="information">
+
+          <div>
+            <h2 class="completed-itens-title quantity"></h2>
+            <p class="completed-itens-p description">Tarefas Concluidas</p>
+          </div>
+
+          <div>
+            <h2 class="incompleted-itens-title quantity"></h2>
+            <p class="incompleted-itens-p description">Tarefas Pendentes</p>
+          </div>
+
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%;"></div>
+          
+        </div>
+        <p class="progress-description"></p>
+
+      </div>
+      
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

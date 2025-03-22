@@ -1,0 +1,17 @@
+# To-Do List 📝  
+Este projeto é uma aplicação simples de **To-Do List**, desenvolvida para ajudar os usuários a organizarem suas tarefas diárias de forma prática e eficiente.
+
+## Funcionalidades 🚀  
+- **Adicionar tarefas**: Insira novas tarefas rapidamente.  
+- **Marcar tarefas como concluídas**: Organize suas tarefas concluídas.  
+- **Remover tarefas**: Exclua tarefas que não são mais necessárias.  
+- **Interface amigável**: Design simples e fácil de usar.  
+
+## Tecnologias Utilizadas 🛠  
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:  
+- **HTML5**: Estrutura da página.  
+- **CSS3**: Estilização e layout responsivo.  
+- **JavaScript**: Funcionalidade e manipulação dinâmica de DOM.  
+
+## Como Executar o Projeto ▶️  
+Para executar a aplicação localmente baixe e aplique o live-server.
